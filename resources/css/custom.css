@@ -1,0 +1,89 @@
+body, html{
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(64, 64, 64, 0.5);
+}
+.shrink{
+  background-color: rgba(64, 64, 64, 0.5);
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  max-width: 62.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: transparent;
+}
+.navbar-brand{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.navbar-nav{
+  float: right;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+  display: table;
+  text-align: center;
+  background: url('../../resources/images/76256.jpg') no-repeat center center fixed;
+  position: relative;
+  background-size: cover;
+}
+.main h1{
+  padding: 200px 0 15px 0;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 30px;
+	color:#fff;
+}
+.main p{
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-bottom: 40px;
+	color:#fff;
+}
+.btn{
+  margin-bottom: 140px;
+}
+#about{
+  text-align: center;
+  max-width: 62.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about img{
+  border-radius: 50%;
+  margin-bottom: 60px;
+}
+#about h2{
+  text-transform: uppercase;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+#skills1{
+  padding-bottom: 45px;
+}
+#skills1 h3{
+  color:  #404040;
+  font-size: 1.4em;
+}
+#skills1 p{
+  padding: 10px 10px 10px 10px;
+  font-size: 0.8em;
+}
+#skills1 i{
+  color: #B22222;
+  padding: 15px 15px 15px 15px;
+}

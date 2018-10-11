@@ -40,7 +40,7 @@ header{
   background-size: cover;
 }
 .main h1{
-  padding: 200px 0 15px 0;
+  padding: 250px 0 40px 0;
   font-size: 75px;
   font-weight: 700;
   line-height: 100px;
@@ -55,7 +55,7 @@ header{
 	color:#fff;
 }
 .btn{
-  margin-bottom: 140px;
+  margin-top: 20px;
 }
 #about{
   text-align: center;

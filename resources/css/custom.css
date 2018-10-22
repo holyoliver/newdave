@@ -3,6 +3,7 @@ body, html{
   font-size: 16px;
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 header{
   width: 100%;
@@ -13,6 +14,12 @@ header{
 .shrink{
   background-color: rgba(64, 64, 64, 0.5);
 }
+a {
+  color: #d1e8e2;
+}
+a:hover{
+  color: #00ffaa;
+}
 .navbar{
   display: flex;
   width: 100%;
@@ -22,6 +29,7 @@ header{
   margin-top: 0;
   margin-bottom: 0;
   background: transparent;
+  color: #d1e8e2;
 }
 .navbar-brand{
   text-transform: uppercase;
@@ -30,53 +38,69 @@ header{
 .navbar-nav{
   float: right;
 }
+.nav-item .nav-link{
+  color: #d1e8e2;
+}
 .main{
   height: 100vh;
   width: 100%;
   display: table;
   text-align: center;
-  background: url('../../resources/images/76256.jpg') no-repeat center center fixed;
+  background: url('https://www.nasa.gov/sites/default/files/images/696905main_HugoLAchre-20121010-orig_full.jpg') no-repeat center center fixed;
   position: relative;
   background-size: cover;
+
 }
+
 .main h1{
   padding: 250px 0 40px 0;
   font-size: 75px;
   font-weight: 700;
   line-height: 100px;
   margin-bottom: 30px;
-	color:#fff;
+	color: #d1e8e2;
 }
 .main p{
   font-size: 30px;
   font-weight: 300;
   line-height: 30px;
   padding-bottom: 40px;
-	color:#fff;
+	color: #d1e8e2;
 }
 .btn{
   margin-top: 20px;
+}
+.aboutme{
+  background: #116466;
+  color: #d1e8e2;
+  background-size: cover;
 }
 #about{
   text-align: center;
   max-width: 62.5em;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 40px;
 }
 #about img{
   border-radius: 50%;
-  margin-bottom: 60px;
 }
 #about h2{
+  letter-spacing: 3px;
   text-transform: uppercase;
-  padding-top: 120px;
+  font-size: 4em;
+  padding-top: 40px;
   padding-bottom: 40px;
+  color: #ccffee;
+}
+#topabout{
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 #skills1{
   padding-bottom: 45px;
 }
 #skills1 h3{
-  color:  #404040;
   font-size: 1.4em;
 }
 #skills1 p{
@@ -84,6 +108,69 @@ header{
   font-size: 0.8em;
 }
 #skills1 i{
-  color: #B22222;
+  color: #00e699;
   padding: 15px 15px 15px 15px;
+}
+.beforeafter{
+  color: #d1e8e2;
+  background: #116466;
+  text-align: center;
+}
+.cocoen{
+  margin-bottom: 80px;
+}
+.beforeafter h2{
+  letter-spacing: 3px;
+  text-transform: uppercase;;
+  font-size: 4em;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#magic{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 62.5em;
+}
+#magic i{
+  color: #edf5e1;
+}
+#befaft{
+  max-width: 62.5em;
+  padding-bottom: 60px;
+}
+.contact{
+  background: url('../../resources/images/footer1.png') no-repeat center center fixed;
+  background-size: cover;
+}
+#contactcont{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 62.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #edf5e1;
+}
+.contact p{
+  color: #d1e8e2;
+  background-color: rgba(64, 64, 64, 0.5);
+}
+.actgall{
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 62.5em;
+}
+.gallery h2{
+  text-align: center;
+  color: #d1e8e2;
+  letter-spacing: 3px;
+  text-transform: uppercase;;
+  font-size: 4em;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.gallery{
+  background: url('../../resources/images/wallp1.png') no-repeat center center fixed;
+  background-size: cover;
 }
